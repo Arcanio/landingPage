@@ -30,12 +30,27 @@ header #wrapper {
 }
 
 #first {
-    padding-top: 70px;
+    height: 500px;
+    padding-top: 40px;
     background-color: #1f2937;
     color: #f9faf8;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#text {
+    text-align: center;
+    width: 30%;
+}
+
+#text button {
+    margin-top: 5px;
 }
 
 #first h1 {
+    width: 110%;
     font-size: 48px;
     font-weight: bold;
 }
@@ -49,6 +64,7 @@ button {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+    display: flex;
 }
 
 #third {
