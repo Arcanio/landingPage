@@ -63,13 +63,13 @@ button {
 }
 
 #second {
-    height: 500px;
+    height: 550px;
 }
 
-#second h2 {
-    margin-top: 30px;
+#goals {
+    padding-top: 30px;
     font-size: 36px;
-    font-weight: bolder;
+    font-weight: bold;
     color: #1f2937;
     display: flex;
     justify-content: center;
@@ -98,29 +98,55 @@ button {
 }
 
 #third {
-    height: 500px;
+    height: 600px;
     background-color: #e5e7eb;
     font-size: 36px;
     font-family: italic;
-    color: #1f2937
+    color: #1f2937;
 }
 
-#third h2 {
+#title {
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    padding-top: 30px;
+}
+
+#about {
+    height: 400px;
+    width: 90%;
+    margin-left: 8%;
+    display: flex;
+    align-items: center;
 }
 
 #fourth {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#blueContainer {
     background-color: #3882f6;
     color: #f9faf8;
+    font-size: 18px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 #fourth p {
     color: #e5e7eb;
 }
 
+#fourth button {
+    border: 3px solid #f9faf8;
+}
+
 footer {
     background-color: #1f2937;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
